@@ -1,0 +1,92 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		3F572F3E2CB03C5C0070E298 /* menu.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = menu.html; sourceTree = "<group>"; };
+		3F572F3F2CB03F270070E298 /* kontakt.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = kontakt.html; sourceTree = "<group>"; };
+		3F572F412CB04FD30070E298 /* send.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = send.php; sourceTree = "<group>"; };
+		3F572F422CB054200070E298 /* style1.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style1.css; sourceTree = "<group>"; };
+		3F572F432CB0563A0070E298 /* hodowla.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = hodowla.html; sourceTree = "<group>"; };
+		3F572F442CB0567C0070E298 /* Atlas.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Atlas.html; sourceTree = "<group>"; };
+		3F572F452CB056B10070E298 /* Poradnik.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Poradnik.html; sourceTree = "<group>"; };
+		3F6201F32CB42BFD000DA249 /* galeria.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = galeria.html; sourceTree = "<group>"; };
+		3F6201F42CB57698000DA249 /* Pierwsze.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Pierwsze.html; sourceTree = "<group>"; };
+		3F7133C32CBEC044008DA9F4 /* kolortime.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = kolortime.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3F572F372CB03C040070E298 = {
+			isa = PBXGroup;
+			children = (
+				3F7133C32CBEC044008DA9F4 /* kolortime.html */,
+				3F6201F42CB57698000DA249 /* Pierwsze.html */,
+				3F6201F32CB42BFD000DA249 /* galeria.html */,
+				3F572F452CB056B10070E298 /* Poradnik.html */,
+				3F572F442CB0567C0070E298 /* Atlas.html */,
+				3F572F432CB0563A0070E298 /* hodowla.html */,
+				3F572F422CB054200070E298 /* style1.css */,
+				3F572F412CB04FD30070E298 /* send.php */,
+				3F572F3F2CB03F270070E298 /* kontakt.html */,
+				3F572F3E2CB03C5C0070E298 /* menu.html */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		3F572F382CB03C040070E298 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1530;
+			};
+			buildConfigurationList = 3F572F3B2CB03C040070E298 /* Build configuration list for PBXProject "Hodowla" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F572F372CB03C040070E298;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		3F572F3C2CB03C040070E298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		3F572F3D2CB03C040070E298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F572F3B2CB03C040070E298 /* Build configuration list for PBXProject "Hodowla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F572F3C2CB03C040070E298 /* Debug */,
+				3F572F3D2CB03C040070E298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F572F382CB03C040070E298 /* Project object */;
+}
