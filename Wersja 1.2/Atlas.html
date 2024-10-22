@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-type" content="text/html" charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Languege" content="pl" >
+    <meta name="Author" content="Kacper Browarek" >
+    <title>Hodowla żółwia wodnego</title>
+    <link rel="stylesheet" href="style1.css">
+        <script src="kolorujtlo.js" type="text/javascript"></script>
+        <script src="timedate.js" type="text/javascript"></script>
+    <style>
+            #atlas td, #atlas th {
+              border: 1px solid gray;
+              padding: 8px;
+              margin: 10px auto;
+              color: black;
+            }
+            #atlas { width: 100% }
+
+            #atlas tr:hover {background-color: lightgrey;}
+
+            #atlas th {
+              padding-top: 12px;
+              padding-bottom: 12px;
+              text-align: center;
+              background-color: blue;
+              color: white;
+            }
+    </style>
+</head>
+<body>
+    <body onload="startclock()">
+            <span id="zegarek"></span> <span id="data"></span>
+        </body>
+        <FORM METHOD="POST" NAME="background">
+           <INPUT TYPE="button" VALUE="żółty" ONCLICK="changeBackground('#FFF000')">
+           <INPUT TYPE="button" VALUE="czarny" ONCLICK="changeBackground('#000000')">
+           <INPUT TYPE="button" VALUE="biały" ONCLICK="changeBackground('#FFFFFF')">
+           <INPUT TYPE="button" VALUE="zielony" ONCLICK="changeBackground('#00FF00')">
+           <INPUT TYPE="button" VALUE="niebieski" ONCLICK="changeBackground('#0000FF')">
+           <INPUT TYPE="button" VALUE="pomarańczowy" ONCLICK="changeBackground('#FF8000')">
+           <INPUT TYPE="button" VALUE="szary" ONCLICK="changeBackground('#c0c0c0')">
+           <INPUT TYPE="button" VALUE="czerwony" ONCLICK="changeBackground('#FF0000')">
+        </FORM>
+    <table>
+        <tr>
+            <td colspan="3" class="header">
+                <h1>Hodowla żółwia wodnego</h1>
+                <nav>
+                    <ul class="menu">
+                        <li><a href="menu.html">Strona Główna</a></li>
+                        <li><a href="hodowla.html">Sklepy</a></li>
+                        <li><a href="Atlas.html">Atlas</a></li>
+                        <li><a href="Poradnik.html">Poradniki</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                        <li><a href="galeria.html">Galeria</a></li>
+                        <li><a href="lab3.html">Lab3</a></li>
+                    </ul>
+                </nav>
+            </td>
+        </tr>
+        <tr>
+            <td >
+                <h2>Spis Treści</h2>
+                        <ul>
+                            <li><a href="#zolw1">Żółw błotny (Emys orbicularis)</a></li>
+                            <li><a href="#zolw2">Żółw czerwonolicy (Trachemys scripta elegans) </a></li>
+                            <li><a href="#zolw3">Żółw malowany (Chrysemys picta)</a></li>
+                            <li><a href="#zolw4">Żółw chiński (Mauremys reevesii)</a></li>
+                            <li><a href="#zolw5">Żółw żółtobrzuchy (Trachemys scripta scripta) </a></li>
+                         
+                        </ul>
+                        <h2 id="zolw1">1. Żółw błotny (Emys orbicularis) - jest gatunkiem żółwia z rodziny żółwi błotnych (Emydidae) i podrzędu żółwi skrytoszyjnych. Jedyny gatunek żółwia żyjący naturalnie w Polsce, znany z  płaskiego, zaokrąglonego pancerza, ciemnozielonego lub brązowego ubarwienia oraz żółtych lub jasnych plamek na głowie i szyi. </h2>
+                        <img src="https://as2.ftcdn.net/v2/jpg/00/64/45/03/1000_F_64450383_Hknfc9h5i9rYWXQNOc3zUElw5eozoj2v.jpg" alt="Zółw-błotny" style="right:float;width:500px;height:400px;">
+                        <br>
+                        <a href="https://stock.adobe.com/pl/contributor/202311203/nestonik?load_type=author&prev_url=detail" target="_blank">Author: nestonik</a>
+                        
+                        <p>
+                        <table id="atlas">
+                        <tr>
+                            <th colspan="2">Opis</th>
+                            <th>  </th>
+                        </tr>
+                        <tr>
+                            <td> Występowanie</td>
+                            <td> Południowa i środkowa Europa, zachodnią Azję i północno-zachodnią Afrykę</td>
+                        </tr>
+                        <tr>
+                            <td> Biotop </td>
+                            <td> małe zbiorniki wodne takie jak małe jeziora, oczka wodne, bagna bądż stawy</td>
+                        </tr>
+                        <tr>
+                            <td> Wielkość</td>
+                            <td> ponad 17-20 cm (samice), do 18 cm (samce)</td>
+                        </tr>
+                        <tr>
+                            <td> Długość życia</td>
+                            <td> potrafi dożyć nawet do 120 lat</td>
+                        </tr>
+                        <tr>
+                            <td> Aktywność</td>
+                            <td>  od zakończenia snu zimowego (okres hibernacji trwa około 6 miesięcy od października do marca) </td>
+                        </tr>
+                        <tr>
+                            <td> Oświetlenie</td>
+                            <td> do 12h i UVB  </td>
+                        </tr>
+                        <tr>
+                            <td> Temperatura</td>
+                            <td> 22 - 28°C w wodzie</td>
+                        </tr>
+                        <tr>
+                            <td> Wilgotność</td>
+                            <td> 50% - 70%</td>
+                        </tr>
+                        <tr>
+                            <td> Środowisko życia</td>
+                            <td> wodne
+                        </tr>
+                        <tr>
+                            <td> Hodowla</td>
+                            <td> Jest gatunkiem chronionym o wysokim ryzyku wyginięcia. Jego hodowla jest dozwolona wyłącznie za specjalnym zezwoleniem Ministerstwa Środowiska i jedynie przez organizacje zajmujące się ochroną gatunku, reintrodukcją, edukacją lub badaniami. </td>
+                        </tr>
+                        <tr>
+                            <td> Rozmnażanie</td>
+                            <td> trudne</td>
+                        </tr>
+                        <tr>
+                            <td> Trudność w hodowli?</td>
+                            <td> zaawansowane </td>
+                        </tr>
+                        <tr>
+                            <td> Jak karmić?</td>
+                            <td> jest gatunkiem drapieżnym </td>
+                        </tr>
+                        </table>
+                        <h2 id="zolw2">2. Żółw czerwonolicy (Trachemys scripta elegans)  - jest podgatunkiem żółwia ozdobnego (Trachemys scripta) z podrzędu żółwi skrytoszyjnych z rodziny żółwi błotnych (Emydidae). Pochodzący z Ameryki Północnej, znany z charakterystycznych czerwonych pasków na głowie i inwazyjności w wielu regionach świata.</h2>
+                        <img  src="https://as2.ftcdn.net/v2/jpg/03/54/16/59/1000_F_354165994_uIDB6owJmn2i46z11CfKb9EVcfIMX28H.jpg" alt="Zółw-czerwonolicy" style="right:float;width:500px;height:400px;">
+                        <br>
+                        <a href="https://stock.adobe.com/pl/contributor/209622763/adam?load_type=author&prev_url=detail" target="_blank">Author: Adam</a>
+                        <p>
+                        <table id="atlas">
+                        <tr>
+                            <th colspan="2">Opis</th>
+                        </tr>
+                        <tr>
+                            <td> Występowanie</td>
+                            <td> Naturalnie występuje w Ameryce Północnej a w takich krajach jak Europa, Azja i Australia jest gatunkiem inwazyjnym. Dlatego w wielu krajach wprowadzono dodatkowe przepisy, aby ograniczyć jego wpływ na naturalne środowisko.  </td>
+                        </tr>
+                        <tr>
+                            <td> Biotop </td>
+                            <td> Zbiorniki stojące takie jak staw, jezioro i bagna. </td>
+                        </tr>
+                        <tr>
+                            <td> Wielkość</td>
+                            <td> ponad 30 cm (samice), do 20 cm (samce)</td>
+                        </tr>
+                        <tr>
+                            <td> Długość życia</td>
+                            <td> między 20 a 40 lat</td>
+                        </tr>
+                        <tr>
+                            <td> Aktywność</td>
+                            <td> Dzień</td>
+                        </tr>
+                        <tr>
+                            <td> Oświetlenie</td>
+                            <td> 10-12h, UVB</td>
+                        </tr>
+                        <tr>
+                            <td> Temperatura</td>
+                            <td> 20-35°C</td>
+                        </tr>
+                        <tr>
+                            <td> Wilgotność</td>
+                            <td> 50% - 70%</td>
+                        </tr>
+                        <tr>
+                            <td> Wielkość terrarium</td>
+                            <td> 80-100 litrów </td>
+                        </tr>
+                        <tr>
+                            <td> Środowisko życia</td>
+                            <td> wodne, naziemne
+                        </tr>
+                        <tr>
+                            <td> Hodowla</td>
+                            <td> Może być pojedynczo trzymana, jeśli chcemy trzymać w większych grupach to trzeba pamiętać że za każdy dodatkowego żółwia musimy powiększać terrarium o około 50 litrów.
+                                W Polsce posiadanie żółwia czerwonolicego wymaga rejestracji w Wydziale Ochrony Środowiska lokalnego starostwa powiatowego w ciągu 14 dni od nabycia. Należy przedstawić dowód zakupu lub zaświadczenie od weterynarza potwierdzające, że żółw pochodzi z hodowli.</td>
+                        </tr>
+                        <tr>
+                            <td> Rozmnażanie</td>
+                            <td> Średnio trudne </td>
+                        </tr>
+                        <tr>
+                            <td> Trudność w hodowli?</td>
+                            <td> średni do zaawansowanego </td>
+                        </tr>
+                        <tr>
+                            <td> Jak karmić?</td>
+                            <td> możemy podawać rośliny takie jak estragon, koniczyna, chaber, czosnek pospolity, kolendra, majeranek, mak, lilak, bukszpan, fiołek, bazylia, cykoria, endywia, młoda pokrzywa, kolendra, lubczyk liście miliny/jeżyny, tymianek, słonecznik - cała roślina, trzykrotka i musimy uzupełniać ich dodatkowo dietę wodnymi owodami, ślimaki i rybami. </td>
+                        </tr>
+                        </table>
+                        <h2 id="zolw3">3. Żółw malowany (Chrysemys picta)  -  jest gatunkiem gada z podrzędu żółwi skrytoszyjnych z rodziny żółwi błotnych (Emydidae). Jest to popularny gatunek słodkowodny, charakteryzujący się jasnymi, kontrastującymi wzorami na pancerzu i skórze, który występuje w różnych środowiskach wodnych w Ameryce Północnej.</h2>
+                        <img  src="https://as2.ftcdn.net/v2/jpg/06/68/53/35/1000_F_668533554_HSdupAaWuuJuG8GGbhMYoLyyB8NJUwNg.jpg" alt="Zółw-malowany" style="right:float;width:500px;height:400px;">
+                        <br>
+                        <a href="https://stock.adobe.com/pl/contributor/204969557/bennytrapp?load_type=author&prev_url=detail" target="_blank">Author: bennytrapp</a>
+                        <p>
+                        <table id="atlas">
+                        <tr>
+                            <th colspan="2">Opis</th>
+                            <th> </th>
+                        </tr>
+                        <tr>
+                            <td> Występowanie</td>
+                            <td> Od południowej Kanady aż do północnego Meksyku.  </td>
+                        </tr>
+                        <tr>
+                            <td> Biotop </td>
+                            <td> Zbiorniki takie jak staw, jezioro i bagna. </td>
+                        </tr>
+                        <tr>
+                            <td> Wielkość</td>
+                            <td> od 18 do 25 cm </td>
+                        </tr>
+                        <tr>
+                            <td> Długość życia</td>
+                            <td> między 20 a 40 lat</td>
+                        </tr>
+                        <tr>
+                            <td> Aktywność</td>
+                            <td> Dzień</td>
+                        </tr>
+                        <tr>
+                            <td> Oświetlenie</td>
+                            <td> 10-12h, UVB</td>
+                        </tr>
+                        <tr>
+                            <td> Temperatura</td>
+                            <td> 22-28°C w wodzie</td>
+                        </tr>
+                        <tr>
+                            <td> Wilgotność</td>
+                            <td> 40% - 70%</td>
+                        </tr>
+                        <tr>
+                            <td> Wielkość terrarium</td>
+                            <td> 80-100 litrów </td>
+                        </tr>
+                        <tr>
+                            <td> Środowisko życia</td>
+                            <td> wodne
+                        </tr>
+                        <tr>
+                            <td> Hodowla</td>
+                            <td> Może być pojedynczo trzymana, jeśli chcemy trzymać w większych grupach to trzeba pamiętać że za każdy dodatkowego żółwia musimy powiększać terrarium o około 50 litrów.
+                                Wwiezienie żółwia malowanego do Polski wymaga zgody Generalnego Dyrektora Ochrony Środowiska, a jego hodowla, rozmnażanie, sprzedaż i zbywanie wymagają zgody Regionalnego Dyrektora Ochrony Środowiska.</td>
+                        </tr>
+                        <tr>
+                            <td> Rozmnażanie</td>
+                            <td> Średnio trudne </td>
+                        </tr>
+                        <tr>
+                            <td> Trudność w hodowli?</td>
+                            <td> średni do zaawansowanego </td>
+                        </tr>
+                        <tr>
+                            <td> Jak karmić?</td>
+                            <td> Jest wszystkożernym gatunkiem więć możemy podawać rośliny i jak wodnymi owodami,  ryby małe, robaki. </td>
+                        </tr>
+                        </table>
+                        <h2 id="zolw4">4. Żółw chiński (Mauremys reevesii) - znany także jako żółw chiński z trzema grzbietami lub żółw Reevesa, to popularny gatunek żółwia słodkowodnego występujący głównie w Azji.</h2>
+                        <img  src="https://vantisterra.pl/vt/sklep-internetowy/modules/amazzingblog/views/img/uploads/posts/171/1-668ea19fdc512.jpg" alt="Zółw-malowany" style="right:float;width:500px;height:400px;">
+                        <br>
+                        <a href="https://vantisterra.pl/vt/portal-terrarystyczny/blog/gady/zolwie/zolw-chinski-mauremys-reevesii" target="_blank">Żródło zdjęcia </a>
+                        <p>
+                        <table id="atlas">
+                        <tr>
+                            <th colspan="2">Opis</th>
+                            <th> </th>
+                        </tr>
+                        <tr>
+                            <td> Występowanie</td>
+                            <td> Azja wschodnia  </td>
+                        </tr>
+                        <tr>
+                            <td> Biotop </td>
+                            <td> Zbiorniki takie jak staw, jezioro i bagna. </td>
+                        </tr>
+                        <tr>
+                            <td> Wielkość</td>
+                            <td> 12 do 17 cm </td>
+                        </tr>
+                        <tr>
+                            <td> Długość życia</td>
+                            <td> między 25 a 30 lat</td>
+                        </tr>
+                        <tr>
+                            <td> Aktywność</td>
+                            <td> Dzień</td>
+                        </tr>
+                        <tr>
+                            <td> Oświetlenie</td>
+                            <td> 10-12h, UVB</td>
+                        </tr>
+                        <tr>
+                            <td> Temperatura</td>
+                            <td> 22-28°C </td>
+                        </tr>
+                        <tr>
+                            <td> Wilgotność</td>
+                            <td> 50% - 70%</td>
+                        </tr>
+                        <tr>
+                            <td> Wielkość terrarium</td>
+                            <td> 80-100 litrów </td>
+                        </tr>
+                        <tr>
+                            <td> Środowisko życia</td>
+                            <td> wodne
+                        </tr>
+                        <tr>
+                            <td> Hodowla</td>
+                            <td> Może być pojedynczo trzymana, jeśli chcemy trzymać w większych grupach to trzeba pamiętać że za każdy dodatkowego żółwia musimy powiększać terrarium o około 50 litrów.
+                                </td>
+                        </tr>
+                        <tr>
+                            <td> Rozmnażanie</td>
+                            <td> łatwe </td>
+                        </tr>
+                        <tr>
+                            <td> Trudność w hodowli?</td>
+                            <td> początkujący </td>
+                        </tr>
+                        <tr>
+                            <td> Jak karmić?</td>
+                            <td> Jest wszystkożernym gatunkiem więć możemy podawać rośliny i jak wodnymi owodami,  ryby małe, robaki. </td>
+                        </tr>
+                        </table>
+                        <h2 id="zolw5">5. Żółw żółtobrzuchy (Trachemys scripta scripta) - jest podgatunkiem żółwia ozdobnego (Trachemys scripta) z podrzędu żółwi skrytoszyjnych z rodziny żółwi błotnych (Emydidae). Charakteryzujący się żółtą plamą za oczami oraz żółtym spodem pancerza. </h2>
+                        <br>
+                        <img  src="https://as2.ftcdn.net/v2/jpg/04/64/44/03/1000_F_464440359_KYlNT9S0pMdm63XHwteKQJToYUTWFc1q.jpg" alt="Zółw-malowany" style="right:float;width:500px;height:400px;">
+                        <br>
+                        <a href="https://stock.adobe.com/pl/contributor/209599810/michael?load_type=author&prev_url=detail" target="_blank">Author: Michael </a>
+                        <p>
+                        <table id="atlas">
+                        <tr>
+                            <th colspan="2">Opis</th>
+                            <th> </th>
+                        </tr>
+                        <tr>
+                            <td> Występowanie</td>
+                            <td> południowo-wschodnie Stany Zjednoczone  </td>
+                        </tr>
+                        <tr>
+                            <td> Biotop </td>
+                            <td> stawy, jeziora i bagna </td>
+                        </tr>
+                        <tr>
+                            <td> Wielkość</td>
+                            <td> ponad 31 cm (samice), do 25 cm (samce)</td>
+                        </tr>
+                        <tr>
+                            <td> Długość życia</td>
+                            <td> między 20 a 30 lat</td>
+                        </tr>
+                        <tr>
+                            <td> Aktywność</td>
+                            <td> Dzień</td>
+                        </tr>
+                        <tr>
+                            <td> Oświetlenie</td>
+                            <td> 10-12h, UVB</td>
+                        </tr>
+                        <tr>
+                            <td> Temperatura</td>
+                            <td> 30-32°C </td>
+                        </tr>
+                        <tr>
+                            <td> Wilgotność</td>
+                            <td> 50% - 70%</td>
+                        </tr>
+                        <tr>
+                            <td> Wielkość terrarium</td>
+                            <td> 80-100 litrów </td>
+                        </tr>
+                        <tr>
+                            <td> Środowisko życia</td>
+                            <td> wodne
+                        </tr>
+                        <tr>
+                            <td> Hodowla</td>
+                            <td> Może być pojedynczo trzymana, jeśli chcemy trzymać w większych grupach to trzeba pamiętać że za każdy dodatkowego żółwia musimy powiększać terrarium o około 50 litrów.
+                                Wwiezienie żółwia malowanego do Polski wymaga zgody Generalnego Dyrektora Ochrony Środowiska, a jego hodowla, rozmnażanie, sprzedaż i zbywanie wymagają zgody Regionalnego Dyrektora Ochrony Środowiska.
+                                </td>
+                        </tr>
+                        <tr>
+                            <td> Rozmnażanie</td>
+                            <td> średnie </td>
+                        </tr>
+                        <tr>
+                            <td> Trudność w hodowli?</td>
+                            <td>  średniozaawansowanych </td>
+                        </tr>
+                        <tr>
+                            <td> Jak karmić?</td>
+                            <td> Jest wszystkożernym gatunkiem więć możemy podawać rośliny i jak wodnymi owodami,  ryby małe, robaki. </td>
+                        </tr>
+                        </table>
+
+                
+    </table>
+             
+                
+</body>
+
