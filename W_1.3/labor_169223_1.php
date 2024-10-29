@@ -1,15 +1,15 @@
 <?php
-// Wyświetlenie imienia
+
 echo 'Kacper Browarek <br /><br />';
 
-// Zmienne indeksu i grupy
+
 $nr_indeksu = '169223';
 $nrGrupy = '1';
 echo 'Kacper Browarek '.$nr_indeksu.' grupa '.$nrGrupy.' <br /><br />';
 
 
 
-// Zastosowanie instrukcji warunkowych
+
 echo 'Warunki if, else, elseif, switch <br />';
 
 $liczba = 10;
@@ -33,17 +33,17 @@ switch ($kolor) {
         echo 'Kolor jest nieznany <br />';
 }
 
-// Pętla while i for
+
 echo 'Pętla while i for <br />';
 
-// Pętla while
+
 $i = 1;
 while ($i <= 5) {
     echo 'Liczba z pętli while: '.$i.' <br />';
     $i++;
 }
 
-// Pętla for
+
 for ($j = 1; $j <= 5; $j++) {
     echo 'Liczba z pętli for: '.$j.' <br />';
 }
@@ -99,25 +99,24 @@ while ($i < 6) {
   $i++;
 }
 
-// Typy zmiennych $_GET, $_POST, $_SESSION
+
 echo 'Typy zmiennych $_GET, $_POST, $_SESSION <br />';
 
-// Zmienna $_GET
+
 if (isset($_GET['nazwa'])) {
     echo 'Dane z $_GET: '.$_GET['nazwa'].' <br />';
 } else {
     echo 'Brak danych w $_GET <br />';
 }
 
-// Zmienna $_POST
+
 if (isset($_POST['nazwa'])) {
     echo 'Dane z $_POST: '.$_POST['nazwa'].' <br />';
 } else {
     echo 'Brak danych w $_POST <br />';
 }
 
-// Zmienna $_SESSION
-session_start(); // rozpoczęcie sesji
+session_start(); 
 if (!isset($_SESSION['odwiedziny'])) {
     $_SESSION['odwiedziny'] = 1;
 } else {
