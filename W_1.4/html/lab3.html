@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+    
+    <link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <meta http-equiv="Content-type" content="text/html" charset="UTF-8" >
+    <meta http-equiv="Content-Languege" content="pl" >
+    <meta name="Author" content="Kacper Browarek" >
+    <title>Hodowla żółwia wodnego</title>
+    
+    
+</head>
+<body>
+	<div id="zolw" class="test-block">Kliknij, a się powiększę</div>
+                <script>
+                    $("#zolw").on("click",function(){
+                        $(this).animate({
+                            width: "500px",
+                            opacity: 0.4,
+                            fontSize: "3em",
+                            borderwidth: "10px"
+                            
+                        },1500);
+                    });
+                </script>
+				
+                <div id="zolw1" class="test-block">Najedz, a się powiększe</div>
+                <script>
+                    $("#zolw1").on({
+                        "mouseover" : function() {
+                            $(this).animate({
+                                width: 300
+                            }, 800);
+                        },
+                        "mouseout" : function() {
+                            $(this).animate({
+                                width: 200
+                            }, 800);
+                        }
+                    });
+                </script>
+
+                <div id="zolw2" class="test-block">Kliknij, abym urósł</div>
+                <script>
+                    $("#zolw2").on("click", function(){
+                        if(!$(this).is(":animated")){
+                            $(this).animate({
+                                width: "+=" + 50,
+                                height: "+=" + 10,
+                                opacity: "0-" + 0.1,
+                                duration : 3000
+                            });
+                        }
+                    });
+                </script>
+</body>
