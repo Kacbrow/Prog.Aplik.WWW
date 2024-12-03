@@ -23,9 +23,7 @@ function PokazKontakt() {
 
 function WyslijMailaKontakt($odbiorca) {
 
-    if(empty($_POST['temat']) || 
-       empty($_POST['tresc']) || 
-       empty($_POST['email'])) {
+    if(empty($_POST['temat']) ||  empty($_POST['tresc']) ||  empty($_POST['email'])) {
         echo '[nie_wypelniles_pola]';
         echo PokazKontakt();
     } else {
