@@ -1,6 +1,6 @@
 <?php
 //---------------------------------------------------------------//
-//				 Wyświetlanie treści strony WWW                	 //
+//	         Wyświetlanie treści strony WWW                	 //
 //---------------------------------------------------------------//
 // Funkcja służy do wyświetlania treści podstron na podstawie ich id
 
@@ -9,7 +9,7 @@ function PokazPodstrone($id) {
     // Ładowanie pliku konfiguracyjnego
     include 'cfg.php';
     
-	// czyścimy $id, aby przez GET ktoś nie próbował wykonać ataku SQL INJECTION
+    // czyścimy $id, aby przez GET ktoś nie próbował wykonać ataku SQL INJECTION
     $id_clear = htmlspecialchars($id);
     
     // Wykonanie zapytania do bazy danych z limitem wyników
