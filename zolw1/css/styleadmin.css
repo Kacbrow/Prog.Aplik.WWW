@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(30, 144, 255);
+    font-family: Arial, sans-serif;
+}
+
+.formularz {
+    padding: 20px;
+    background: rgb(10,200,150);
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background: rgb(255, 255, 255);
+    color: rgb(10,200,150);
+    cursor: pointer;
+	text-align: center
+}
+
